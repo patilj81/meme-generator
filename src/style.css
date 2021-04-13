@@ -3,6 +3,10 @@ p {
   font-family: Lato;
 }
 
+body {
+	background-color: lightseagreen;
+}
+
 .header {
   padding: 1%;
   display: inline-block;
@@ -95,14 +99,18 @@ p {
   border: 5px rgba(33, 80, 87, 0.74);
 }
 
+
 @media only screen and (max-width: 600px) {
 	.meme-input {
 		flex-direction: column;
-		background-color: blue;
 	}
 	.meme-input > input {
 		margin: auto;
 		margin-bottom: 1rem;
+		width: 60%;
+	}
+	.meme-creator > h1 {
+		text-shadow: 1px 1px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 0 2px 0 #000, 1px 0 0 #000, 0 -1px 0 #000, -2px 0 0 #000, 1px 1px 1px #000;
 	}
 }
 
